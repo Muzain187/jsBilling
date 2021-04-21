@@ -1,13 +1,20 @@
 console.log("Bill");
 let AddBtn = document.getElementById('AddBtn');
 let TotalAmnt = document.getElementById('TotalAmnt');
-let CustName = document.getElementById('CustName');
-console.log('Customer Name ',CustName.value);
-localStorage.setItem("CustomerName",CustName.value);
-CustName.value='';
+
+
+// CustName.value='';
 
 let Total = 0;
 showlist();
+/********ADD ustomer Name to the localstorage**************** */
+function Add(){
+    console.log('Add');
+    let CustName = document.getElementById('CustName');
+    console.log('Customer Name ',CustName.value);
+    localStorage.setItem("CustomerName",CustName.value);
+}
+
 
 /* *******************************FUNCTION TO ADD LIST TO LOCAL STORAGE****************************  */
 AddBtn.addEventListener('click',function(){
