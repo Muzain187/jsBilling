@@ -44,7 +44,7 @@ button.addEventListener("click",function(){
             localStorage.setItem("CmpEmail",CmpEmail.value);
             // alert("Successfully created.");
             success.innerHTML = `<div class="alert alert-success alert-dismissible" role="alert">
-            your credential created <strong>Success Fully</strong><a href="index.html" class="btn btn-success">Goto Home</a> <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            your credential created <strong>Success Fully</strong><a href="/" class="btn btn-success">Goto Home</a> <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>`;
         }
         else{
