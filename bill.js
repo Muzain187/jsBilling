@@ -5,7 +5,9 @@ let TotalAmnt = document.getElementById('TotalAmnt');
 
 //  let Total = 0;
 // CustName.value='';
-
+let NameObj = [];
+let QuantityObj = [];
+let PriceObj = [];
 
     Total = 0;
 showlist();
