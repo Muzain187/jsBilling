@@ -5,9 +5,9 @@ let TotalAmnt = document.getElementById('TotalAmnt');
 
 //  let Total = 0;
 // CustName.value='';
-let NameObj = [];
-let QuantityObj = [];
-let PriceObj = [];
+// let NameObj = [];
+// let QuantityObj = [];
+// let PriceObj = [];
 
     Total = 0;
 showlist();
@@ -36,9 +36,9 @@ AddBtn.addEventListener('click',function(){
     let Itemprice = document.getElementById('price');
 
     // let notes = localStorage.getItem("notes");
-    //let Name = localStorage.getItem("Name");
-    //let Quantity = localStorage.getItem("Quantity");
-    //let Price = localStorage.getItem("Price");
+    let Name = localStorage.getItem("Name");
+    let Quantity = localStorage.getItem("Quantity");
+    let Price = localStorage.getItem("Price");
     if(Name == null && Quantity==null && Price==null){
         // notesObj = [];
         NameObj = [];
