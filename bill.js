@@ -37,7 +37,7 @@ AddBtn.addEventListener('click',function(){
     let Name = localStorage.getItem("Name");
     let Quantity = localStorage.getItem("Quantity");
     let Price = localStorage.getItem("Price");
-    if(Name == null && Quantity==null && Price==null){
+    if(Name == null || Quantity==null || Price==null){
         // notesObj = [];
         NameObj = [];
         QuantityObj = [];
